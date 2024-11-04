@@ -33,12 +33,6 @@ const SidebarContainer = styled.div`
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
 `;
 
-const Logo = styled.h2`
-  font-size: 1.5rem;
-  color: #ffffff;
-  margin-bottom: 20px;
-`;
-
 const Menu = styled.ul`
   list-style: none;
   padding: 0;

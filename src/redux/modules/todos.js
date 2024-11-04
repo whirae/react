@@ -50,11 +50,6 @@ const initialState = {
       title: '4번 게시물의 제목입니다.',
       content: '4번 게시물의 내용입니다.',
     },
-    {
-      id: 5,
-      title: '5번 게시물의 제목입니다.',
-      content: '5번 게시물의 내용입니다.',
-    },
   ],
 };
 

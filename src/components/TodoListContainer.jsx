@@ -63,11 +63,6 @@ const StUserInfo = styled.div`
   flex-direction: column;
 `;
 
-const StDate = styled.span`
-  font-size: 0.85rem;
-  color: #888;
-`;
-
 const StTitle = styled.div`
   font-size: 1.2rem;
   font-weight: bold;

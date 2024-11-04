@@ -6,7 +6,6 @@ import styled from 'styled-components';
 const LoginPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage] = useState('');
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -28,7 +27,6 @@ const LoginPage = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
         <Button type="submit">로그인</Button>
       </LoginForm>
     </LoginContainer>
@@ -85,10 +83,4 @@ const Button = styled.button`
   &:hover {
     background-color: #8fa2c1;
   }
-`;
-
-const ErrorMessage = styled.div`
-  color: #ff4d4f;
-  font-size: 0.9rem;
-  margin-top: 10px;
 `;

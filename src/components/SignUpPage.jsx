@@ -7,8 +7,8 @@ const SignUpPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage] = useState('');
+  const [successMessage] = useState('');
 
   const handleSignUp = (e) => {
     e.preventDefault();
