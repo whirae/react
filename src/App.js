@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import TodoListContainer from './components/TodoListContainer';
 import AddForm from './components/AddForm';
 import DetailPage from './components/DetailPage';

@@ -1,7 +1,7 @@
 {
   "name": "whirae_react",
   "version": "0.1.0",
-  "homepage": "https://whirae.github.io/react/",
+  "homepage": "https://whirae.github.io/react",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
